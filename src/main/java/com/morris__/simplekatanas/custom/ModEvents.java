@@ -13,6 +13,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.Vec3d;
 
@@ -46,7 +48,7 @@ public class ModEvents {
                         player.getWorld().playSound(
                                 null,
                                 player.getBlockPos(),
-                                ModSounds.PARRY_DULL,
+                                SoundEvents.BLOCK_WOOD_HIT,
                                 SoundCategory.PLAYERS,
                                 0.5f,
                                 pitch
@@ -58,7 +60,7 @@ public class ModEvents {
                         player.getWorld().playSound(
                                 null,
                                 player.getBlockPos(),
-                                ModSounds.PARRY_CLANG,
+                                SoundEvents.ITEM_TRIDENT_HIT,
                                 SoundCategory.PLAYERS,
                                 0.5f,
                                 pitch

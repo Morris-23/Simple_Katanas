@@ -4,7 +4,6 @@ import com.morris__.simplekatanas.Item.ModItemGroups;
 import com.morris__.simplekatanas.Item.ModItems;
 import com.morris__.simplekatanas.custom.ModEvents;
 import com.morris__.simplekatanas.custom.ModItemProperties;
-import com.morris__.simplekatanas.custom.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,7 +19,6 @@ public class SimpleKatanas implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItemProperties.register();
         ModEvents.registerEvents();
-        ModSounds.registerSounds();
 
 	}
 }
