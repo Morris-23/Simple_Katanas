@@ -6,7 +6,7 @@ A Fabric mod that adds timing-based katana combat to Minecraft, featuring parrie
 - Timing-based parry & perfect parry
 - Visual parry window HUD
 - Custom sounds & particles
-- Tiered katanas (wood, stone, metal)
+- Tiered katanas (wood, stone, iron, etc)
 - Balanced, skill-focused combat
 
 ## Requirements
