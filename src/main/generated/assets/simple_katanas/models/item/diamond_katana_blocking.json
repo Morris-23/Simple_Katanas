@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "simple_katanas:item/diamond_katana"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [-50, 180, 0],
+      "translation": [-5, 3.5, 0.5],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "firstperson_lefthand": {
+      "rotation": [50, -180, 0],
+      "translation": [5, -3.5, -0.5],
+      "scale": [1.0, 1.0, 1.0]
+    }
+  }
+}

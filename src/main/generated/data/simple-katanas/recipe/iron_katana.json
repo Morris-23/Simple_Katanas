@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  R",
+    " R ",
+    "T  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "simple_katanas:iron_katana"
+  }
+}

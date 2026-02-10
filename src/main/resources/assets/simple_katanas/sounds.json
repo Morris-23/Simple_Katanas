@@ -1,0 +1,17 @@
+{
+  "parry.clang": {
+    "sounds": [
+      {
+        "name": "simple_katanas:parry_clang"
+      }
+    ]
+  },
+  "parry.dull": {
+    "sounds": [
+      {
+        "name": "simple_katanas:parry_dull"
+      }
+    ]
+    }
+  }
+

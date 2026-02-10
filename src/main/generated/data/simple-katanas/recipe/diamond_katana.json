@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  R",
+    " R ",
+    "T  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "simple_katanas:diamond_katana"
+  }
+}

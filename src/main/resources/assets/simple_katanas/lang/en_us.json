@@ -1,0 +1,10 @@
+{
+  "itemgroup.simplekatanas.simple_katanas": "Simple Katana",
+
+  "item.simple_katanas.wooden_katana": "Wooden Katana",
+  "item.simple_katanas.stone_katana": "Stone Katana",
+  "item.simple_katanas.gold_katana": "Golden Katana",
+  "item.simple_katanas.iron_katana": "Iron Katana",
+  "item.simple_katanas.diamond_katana": "Diamond Katana",
+  "item.simple_katanas.netherite_katana": "Netherite Katana"
+}

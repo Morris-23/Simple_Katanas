@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "simple_katanas:item/stone_katana"
+  },
+  "overrides": [
+    {
+      "predicate": { "simple_katanas:blocking": 1.0 },
+      "model": "simple_katanas:item/stone_katana_blocking"
+    }
+  ]
+}

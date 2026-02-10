@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "simple_katanas:netherite_katana",
+    "simple_katanas:diamond_katana",
+    "simple_katanas:iron_katana",
+    "simple_katanas:gold_katana",
+    "simple_katanas:stone_katana",
+    "simple_katanas:wooden_katana"
+  ]
+}
