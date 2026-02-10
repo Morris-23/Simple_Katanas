@@ -43,26 +43,26 @@ public class ModEvents {
 
                 switch (tier) {
                     case WOOD, STONE -> {
-                        float pitch = 0.90f + player.getWorld().random.nextFloat() * 0.1f;
+                        float pitch = 1.1f + player.getWorld().random.nextFloat() * 0.1f;
 
                         player.getWorld().playSound(
                                 null,
                                 player.getBlockPos(),
-                                SoundEvents.BLOCK_WOOD_HIT,
+                                SoundEvents.BLOCK_BAMBOO_WOOD_BUTTON_CLICK_OFF,
                                 SoundCategory.PLAYERS,
-                                0.5f,
+                                1f,
                                 pitch
                         );
                     }
                     case METAL -> {
-                        float pitch = 0.90f + player.getWorld().random.nextFloat() * 0.1f;
+                        float pitch = 0.6f + player.getWorld().random.nextFloat() * 0.1f;
 
                         player.getWorld().playSound(
                                 null,
                                 player.getBlockPos(),
                                 SoundEvents.ITEM_TRIDENT_HIT,
                                 SoundCategory.PLAYERS,
-                                0.5f,
+                                0.7f,
                                 pitch
                         );
                     }
